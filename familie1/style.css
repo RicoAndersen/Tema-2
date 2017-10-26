@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F2EBBF;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.LAProdukt{
+  float: left;
+  background-color: #F3B562;
+  width: 45%;
+  padding: 1%;
+  margin-left: 2%;
+}
+aside {
+  float: right;
+  width: 45%;
+  background-color: #F3B562;
+  padding: 1%;
+  margin-right: 2%;
+}
+.LAezpzlemon{
+display: none;
+}
+@media screen and (min-width: 600px) {
+.LAsmoothielemonslice2{
+display: none;
+}
+.LAezpzlemon {display: block;
+}
+}

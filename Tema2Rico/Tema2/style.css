@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* This changes the colour of the background and changes the text type to a sans-serif*/
+body {
+  font-family: sans-serif;
+  background-color: #f2ebbf;
+}
+/* This is the banner at the top of the screen*/
+.RABanner {
+  width: 100%;
+  height: auto;
+}
+/*This is the second banner, that shows on a larger screen size*/
+.RAsmoothie {
+  display: none;
+}
+/*This is the paragraph to te left*/
+.RAtekst {
+  background-color: #f3b562;
+  width: 40%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 5%;
+  padding: 5px;
+  line-height: 21px;
+}
+/*This is the name of the smoothie*/
+.RAtekst h3 {
+  margin-bottom: 8px;
+}
+/*This is the picture at the bottom of the page*/
+.RAtekst img {
+  width: 100%;
+  height: auto;
+}
+  /*This is the paragraph to the right*/
+.RAtekst2 {
+  background-color: #f3b562;
+  width: 40%;
+  float: right;
+  margin-right: 20px;
+  margin-top: 5%;
+  padding: 5px;
+  line-height: 21px;
+}
+/*This is the picture over the second paragraph*/
+.RAtekst2 img {
+  width: 100%;
+  height: auto;
+  }
+
+/*This part changes the site, when it is put on a screen whose screen is minimum 600px*/
+@media screen and (min-width: 600px) {
+
+  .RABanner {
+    display: none;
+  }
+  .RAsmoothie {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .RAtekst{
+    width: 50%;
+    height: auto;
+    padding: 5px;
+    line-height: 25px;
+  }
+  .RAtekst2{
+    width: 100%
+    height:auto;
+    line-height: 25px;
+  }
+  .RAtekst img {
+    width: 100%;
+    height: auto;
+  }
+}

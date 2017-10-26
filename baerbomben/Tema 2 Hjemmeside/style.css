@@ -1,0 +1,61 @@
+/* Her har jeg box sizing for at alt passer inden for skærmen */
+*{
+  box-sizing: border-box;
+}
+/* Her har jeg font, baggrundsfarve og whitespace for hele
+  dokumentet */
+body {
+  font-family: arial, sans-serif;
+  background-color: #F2EBBF;
+  margin: 0;
+  padding: 0;
+}
+/* Dette er bredden for det likke banner */
+.POBanner {
+  width: 100%;
+  height: auto;
+}
+/* Dette er for at gemme det store banner på
+  mobil version */
+.POBanner1 {
+  display: none;
+}
+/* Dette er for at formatere teksten */
+.POtekst {
+  background-color: #F3B562;
+  width: 45%;
+  float: left;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+/* Dette er for at gemme min ekstra tekst */
+.POhide {
+  visibility: hidden;
+}
+/* Dette er formatteringen af mit tropiske frugter
+  billede */
+.PObali {
+  width: 45%;
+  float: right;
+  margin-top: 5%;
+  margin-right: 3%;
+}
+/* dette skaber et breakpoint i stylingen ved 600px eller
+   over i bredden */
+@media screen and (min-width: 600px) {
+
+  .POBanner {
+    display: none;
+  }
+
+  .POBanner1 {
+    clear;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .POhide {
+    visibility: visible;
+  }
+}
